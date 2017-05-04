@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:ns2="http://www.w3.org/2005/Atom" xmlns:ns3="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0">
+    <NetworkLinkControl>
+        <expires>2017-04-19T09:10:36</expires>
+    </NetworkLinkControl>
+    <Document>
+        <Style id="greenline">
+            <LineStyle>
+                <color>FF00FF00</color>
+                <width>2.5</width>
+            </LineStyle>
+            <BalloonStyle>
+                <text>&lt;div style=&quot;font-family: Arial, sans-serif;&quot;&gt; &lt;div style=&quot;font-weight: bold; font-size: 1.15em; margin-bottom: 0em;&quot;&gt;$[name]&lt;/div&gt; &lt;div style=&quot;font-size: 0.95em;&quot;&gt;$[description]&lt;/div&gt; &lt;/div&gt;</text>
+            </BalloonStyle>
+        </Style>
+        <Style id="yellowline">
+            <LineStyle>
+                <color>FF00FFFF</color>
+                <width>2.5</width>
+            </LineStyle>
+            <BalloonStyle>
+                <text>&lt;div style=&quot;font-family: Arial, sans-serif;&quot;&gt; &lt;div style=&quot;font-weight: bold; font-size: 1.15em; margin-bottom: 0em;&quot;&gt;$[name]&lt;/div&gt; &lt;div style=&quot;font-size: 0.95em;&quot;&gt;$[description]&lt;/div&gt; &lt;/div&gt;</text>
+            </BalloonStyle>
+        </Style>
+        <Style id="redline">
+            <LineStyle>
+                <color>FF0000FF</color>
+                <width>2.5</width>
+            </LineStyle>
+            <BalloonStyle>
+                <text>&lt;div style=&quot;font-family: Arial, sans-serif;&quot;&gt; &lt;div style=&quot;font-weight: bold; font-size: 1.15em; margin-bottom: 0em;&quot;&gt;$[name]&lt;/div&gt; &lt;div style=&quot;font-size: 0.95em;&quot;&gt;$[description]&lt;/div&gt; &lt;/div&gt;</text>
+            </BalloonStyle>
+        </Style>
+        <Style id="red">
+            <IconStyle>
+                <Icon>
+                    <href>http://www1.skekraft.se/outages/red2.png</href>
+                </Icon>
+            </IconStyle>
+            <BalloonStyle>
+                <text>&lt;div style=&quot;font-family: Arial, sans-serif;&quot;&gt; &lt;div style=&quot;font-weight: bold; font-size: 1.15em; margin-bottom: 0em;&quot;&gt;$[name]&lt;/div&gt; &lt;div style=&quot;font-size: 0.95em;&quot;&gt;$[description]&lt;/div&gt; &lt;/div&gt;</text>
+            </BalloonStyle>
+        </Style>
+        <Style id="green">
+            <IconStyle>
+                <Icon>
+                    <href>http://www1.skekraft.se/outages/green2.png</href>
+                </Icon>
+            </IconStyle>
+            <BalloonStyle>
+                <text>&lt;div style=&quot;font-family: Arial, sans-serif;&quot;&gt; &lt;div style=&quot;font-weight: bold; font-size: 1.15em; margin-bottom: 0em;&quot;&gt;$[name]&lt;/div&gt; &lt;div style=&quot;font-size: 0.95em;&quot;&gt;$[description]&lt;/div&gt; &lt;/div&gt;</text>
+            </BalloonStyle>
+        </Style>
+        <Style id="yellow">
+            <IconStyle>
+                <Icon>
+                    <href>http://www1.skekraft.se/outages/yellow2.png</href>
+                </Icon>
+            </IconStyle>
+            <BalloonStyle>
+                <text>&lt;div style=&quot;font-family: Arial, sans-serif;&quot;&gt; &lt;div style=&quot;font-weight: bold; font-size: 1.15em; margin-bottom: 0em;&quot;&gt;$[name]&lt;/div&gt; &lt;div style=&quot;font-size: 0.95em;&quot;&gt;$[description]&lt;/div&gt; &lt;/div&gt;</text>
+            </BalloonStyle>
+        </Style>
+        <Placemark>
+            <name>Berörda kunder: 6</name>
+            <description>Driftstörning&lt;br&gt;Uppstod: 2017-01-03 17:10&lt;br&gt;Avbrottsnummer: 68847&lt;br&gt;</description>
+            <styleUrl>#redline</styleUrl>
+            <LineString>
+                <coordinates>21.03488361316697,64.74516462898887,0.0 21.034798535306187,64.74605175178955,0.0 21.03474044601183,64.74614543992963,0.0 21.03400190367068,64.74675605653026,0.0 21.03383027996044,64.74683865971433,0.0 21.033587131174883,64.74687621812974,0.0 21.033331512005564,64.7468596097502,0.0 21.033125506117557,64.74679286833553,0.0 21.033019146644456,64.74669220368156,0.0 21.032554354574252,64.74556906285169,0.0 21.03255762827274,64.74548382725314,0.0 21.0326351827558,64.74540528066727,0.0 21.03277579540813,64.74534478868935,0.0 21.034064249019284,64.7449701933177,0.0 21.03433569271983,64.74493158324404,0.0 21.03461419628069,64.74495955211657,0.0 21.034816934505468,64.74504578216238,0.0 21.03488361316697,64.74516462898887,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark>
+            <name>Berörda kunder: 1</name>
+            <description>Driftstörning&lt;br&gt;Uppstod: 2017-03-29 11:23&lt;br&gt;Avbrottsnummer: 68942&lt;br&gt;</description>
+            <styleUrl>#red</styleUrl>
+            <Point>
+                <altitudeMode>absolute</altitudeMode>
+                <coordinates>18.71838165040668,64.57819441071608,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Berörda kunder: 57</name>
+            <description>Driftstörning&lt;br&gt;Uppstod: 2017-03-29 14:33&lt;br&gt;Avbrottsnummer: 68944&lt;br&gt;</description>
+            <styleUrl>#redline</styleUrl>
+            <LineString>
+                <coordinates>20.173909679370983,64.87428605630951,0.0 20.137676453681188,64.9246001022037,0.0 20.13759922895544,64.92466593222663,0.0 20.137475954926213,64.92471761619686,0.0 20.057958799064533,64.94849106993564,0.0 20.057684373406758,64.94853157437889,0.0 20.057400903042083,64.94850448734472,0.0 20.037050386324996,64.9437884695846,0.0 20.036855240934777,64.94371027605749,0.0 20.03677584908533,64.9436015203975,0.0 20.036832686960366,64.94349025400471,0.0 20.082037348607944,64.90570153801161,0.0 20.08210572590428,64.90565785555303,0.0 20.133064904172894,64.88013673292888,0.0 20.133079173843154,64.8801298668588,0.0 20.135293362846575,64.87910731415252,0.0 20.135523481986542,64.87904523915864,0.0 20.173247210579294,64.87400671893812,0.0 20.173529873090402,64.87400272509062,0.0 20.17377672985671,64.87406139897307,0.0 20.173916761234327,64.87416586044468,0.0 20.173909679370983,64.87428605630951,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark>
+            <name>Berörda kunder: 12</name>
+            <description>Driftstörning&lt;br&gt;Uppstod: 2017-03-16 14:14&lt;br&gt;Avbrottsnummer: 59622&lt;br&gt;</description>
+            <styleUrl>#redline</styleUrl>
+            <LineString>
+                <coordinates>21.11414375956703,64.78924893616467,0.0 21.11927231506186,64.7896873819941,0.0 21.119521600990087,64.78974093313087,0.0 21.119671412202667,64.7898413722158,0.0 21.121456887934944,64.79232268741087,0.0 21.121468362167487,64.79243535115248,0.0 21.121349704150497,64.79253613261295,0.0 21.116584956328126,64.79485410297734,0.0 21.116559051784435,64.79486582553419,0.0 21.115669916778483,64.795240253846,0.0 21.11565206062281,64.79524742992402,0.0 21.113308799686255,64.79614599125989,0.0 21.113280789704703,64.7961560028164,0.0 21.112365661763945,64.79646062922933,0.0 21.112222189920335,64.79649453998587,0.0 21.111239986201713,64.79664716000345,0.0 21.11097545897269,64.79665778784626,0.0 21.110732538726854,64.79661189654925,0.0 21.110573301529623,64.79652121324958,0.0 21.110538437934792,64.79640891116706,0.0 21.112474771381738,64.7897799874043,0.0 21.112476969423085,64.78977328717171,0.0 21.112485437849944,64.78975003654674,0.0 21.112555472507744,64.78966816274543,0.0 21.112693448248056,64.78960387413065,0.0 21.113693953407584,64.78929020670834,0.0 21.113932389873685,64.78924882813793,0.0 21.113967650454757,64.78924672434945,0.0 21.11414375956703,64.78924893616467,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark>
+            <name>Berörda kunder: 7</name>
+            <description>Planerat avbrott&lt;br&gt;Uppstod: 2016-12-21 07:54&lt;br&gt;Avbrottsnummer: 68846&lt;br&gt;</description>
+            <styleUrl>#redline</styleUrl>
+            <LineString>
+                <coordinates>20.95038137168274,64.73640203703896,0.0 20.951287432865424,64.73645658730025,0.0 20.951521665271326,64.73649692590611,0.0 20.951684624882674,64.73657936482581,0.0 20.951738527735674,64.73668479006956,0.0 20.95172584646956,64.7368779117813,0.0 20.95165812143046,64.73698193369938,0.0 20.95148442291085,64.73706035097203,0.0 20.94944639545777,64.73761801154052,0.0 20.949199655131626,64.73765285840153,0.0 20.948944053314175,64.73763281893267,0.0 20.948742339119438,64.73756281272568,0.0 20.948644031756906,64.73746002592202,0.0 20.948576001831267,64.73725012735781,0.0 20.948502466915894,64.7370231185098,0.0 20.94850177353932,64.73702089618016,0.0 20.948426987013498,64.73677168653809,0.0 20.94845844362667,64.73666189566549,0.0 20.948608960706583,64.73657190626476,0.0 20.948841871691705,64.73652363954825,0.0 20.950202856150668,64.73640441172485,0.0 20.95038137168274,64.73640203703896,0.0</coordinates>
+            </LineString>
+        </Placemark>
+    </Document>
+</kml>
