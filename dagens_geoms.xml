@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:ns2="http://www.w3.org/2005/Atom" xmlns:ns3="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0">
+    <NetworkLinkControl>
+        <expires>2017-04-19T09:13:04</expires>
+    </NetworkLinkControl>
+    <Document>
+        <Style id="greenline">
+            <LineStyle>
+                <color>FF00FF00</color>
+                <width>2.5</width>
+            </LineStyle>
+            <BalloonStyle>
+                <text>&lt;div style=&quot;font-family: Arial, sans-serif;&quot;&gt; &lt;div style=&quot;font-weight: bold; font-size: 1.15em; margin-bottom: 0em;&quot;&gt;$[name]&lt;/div&gt; &lt;div style=&quot;font-size: 0.95em;&quot;&gt;$[description]&lt;/div&gt; &lt;/div&gt;</text>
+            </BalloonStyle>
+        </Style>
+        <Style id="yellowline">
+            <LineStyle>
+                <color>FF00FFFF</color>
+                <width>2.5</width>
+            </LineStyle>
+            <BalloonStyle>
+                <text>&lt;div style=&quot;font-family: Arial, sans-serif;&quot;&gt; &lt;div style=&quot;font-weight: bold; font-size: 1.15em; margin-bottom: 0em;&quot;&gt;$[name]&lt;/div&gt; &lt;div style=&quot;font-size: 0.95em;&quot;&gt;$[description]&lt;/div&gt; &lt;/div&gt;</text>
+            </BalloonStyle>
+        </Style>
+        <Style id="redline">
+            <LineStyle>
+                <color>FF0000FF</color>
+                <width>2.5</width>
+            </LineStyle>
+            <BalloonStyle>
+                <text>&lt;div style=&quot;font-family: Arial, sans-serif;&quot;&gt; &lt;div style=&quot;font-weight: bold; font-size: 1.15em; margin-bottom: 0em;&quot;&gt;$[name]&lt;/div&gt; &lt;div style=&quot;font-size: 0.95em;&quot;&gt;$[description]&lt;/div&gt; &lt;/div&gt;</text>
+            </BalloonStyle>
+        </Style>
+        <Style id="red">
+            <IconStyle>
+                <Icon>
+                    <href>http://www1.skekraft.se/outages/red2.png</href>
+                </Icon>
+            </IconStyle>
+            <BalloonStyle>
+                <text>&lt;div style=&quot;font-family: Arial, sans-serif;&quot;&gt; &lt;div style=&quot;font-weight: bold; font-size: 1.15em; margin-bottom: 0em;&quot;&gt;$[name]&lt;/div&gt; &lt;div style=&quot;font-size: 0.95em;&quot;&gt;$[description]&lt;/div&gt; &lt;/div&gt;</text>
+            </BalloonStyle>
+        </Style>
+        <Style id="green">
+            <IconStyle>
+                <Icon>
+                    <href>http://www1.skekraft.se/outages/green2.png</href>
+                </Icon>
+            </IconStyle>
+            <BalloonStyle>
+                <text>&lt;div style=&quot;font-family: Arial, sans-serif;&quot;&gt; &lt;div style=&quot;font-weight: bold; font-size: 1.15em; margin-bottom: 0em;&quot;&gt;$[name]&lt;/div&gt; &lt;div style=&quot;font-size: 0.95em;&quot;&gt;$[description]&lt;/div&gt; &lt;/div&gt;</text>
+            </BalloonStyle>
+        </Style>
+        <Style id="yellow">
+            <IconStyle>
+                <Icon>
+                    <href>http://www1.skekraft.se/outages/yellow2.png</href>
+                </Icon>
+            </IconStyle>
+            <BalloonStyle>
+                <text>&lt;div style=&quot;font-family: Arial, sans-serif;&quot;&gt; &lt;div style=&quot;font-weight: bold; font-size: 1.15em; margin-bottom: 0em;&quot;&gt;$[name]&lt;/div&gt; &lt;div style=&quot;font-size: 0.95em;&quot;&gt;$[description]&lt;/div&gt; &lt;/div&gt;</text>
+            </BalloonStyle>
+        </Style>
+        <Placemark>
+            <name>Berörda kunder: 10</name>
+            <description>Åtgärdat&lt;br&gt;Uppstod: 2017-04-18 13:16&lt;br&gt;Sluttid: 2017-04-18 14:46&lt;br&gt;</description>
+            <styleUrl>#greenline</styleUrl>
+            <LineString>
+                <coordinates>20.3300765078749,64.75232873578109,0.0 20.330954855137733,64.75233965488748,0.0 20.33121026639852,64.75237166539911,0.0 20.331396064021742,64.75245306692972,0.0 20.33146446357147,64.75256292452012,0.0 20.33139787239168,64.75267298457801,0.0 20.33121341542549,64.75275494112465,0.0 20.329116419738718,64.75330253433977,0.0 20.32897431103866,64.75332827962534,0.0 20.328820810240018,64.7533352580763,0.0 20.324261164091507,64.75325428827502,0.0 20.323738222922483,64.75324473633161,0.0 20.323582675553002,64.75323166189715,0.0 20.32250276552349,64.75306543721163,0.0 20.32227419981485,64.75299634453613,0.0 20.32216135406067,64.75288689711107,0.0 20.32219634666872,64.75276824749626,0.0 20.32236921592548,64.75267416713288,0.0 20.322630757204212,64.75263143398162,0.0 20.330011175272283,64.75232966247557,0.0 20.3300765078749,64.75232873578109,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark>
+            <name>Berörda kunder: 13</name>
+            <description>Åtgärdat&lt;br&gt;Uppstod: 2017-01-19 09:01&lt;br&gt;Sluttid: 2017-04-18 14:51&lt;br&gt;</description>
+            <styleUrl>#greenline</styleUrl>
+            <LineString>
+                <coordinates>20.536121778764844,64.37882132425844,0.0 20.61023007839552,64.38897085546405,0.0 20.610448599779485,64.38902975682225,0.0 20.610574594397125,64.38912691922141,0.0 20.610576927332637,64.3892383333632,0.0 20.61045502071577,64.38933646799224,0.0 20.60440543691366,64.39217780066622,0.0 20.604287083205836,64.3922191235892,0.0 20.58861071823158,64.39620660807695,0.0 20.588384113285834,64.39623696777895,0.0 20.588149991111216,64.39622043591542,0.0 20.5257218783728,64.3850108781573,0.0 20.52555487604186,64.38496258615626,0.0 20.52292214139346,64.38382580854395,0.0 20.52278419650556,64.38371919005158,0.0 20.52279594712994,64.38359709403731,0.0 20.52295389878052,64.38349581181016,0.0 20.53563138835046,64.37886371024396,0.0 20.53586397954448,64.37881518121637,0.0 20.536121778764844,64.37882132425844,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark>
+            <name>Berörda kunder: 1</name>
+            <description>Åtgärdat&lt;br&gt;Uppstod: 2017-04-18 14:54&lt;br&gt;Sluttid: 2017-04-18 16:08&lt;br&gt;</description>
+            <styleUrl>#green</styleUrl>
+            <Point>
+                <altitudeMode>absolute</altitudeMode>
+                <coordinates>18.756352592901603,65.19260727729456,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Berörda kunder: 1</name>
+            <description>Åtgärdat&lt;br&gt;Uppstod: 2017-04-18 13:44&lt;br&gt;Sluttid: 2017-04-18 19:53&lt;br&gt;</description>
+            <styleUrl>#green</styleUrl>
+            <Point>
+                <altitudeMode>absolute</altitudeMode>
+                <coordinates>18.77030110755367,64.53024088892656,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Berörda kunder: 386</name>
+            <description>Åtgärdat&lt;br&gt;Uppstod: 2017-04-18 19:53&lt;br&gt;Sluttid: 2017-04-18 19:54&lt;br&gt;</description>
+            <styleUrl>#greenline</styleUrl>
+            <LineString>
+                <coordinates>21.31932194846985,64.98654804815433,0.0 21.55644690289793,65.03447789732665,0.0 21.55648988465699,65.03448758197989,0.0 21.55890003784313,65.03509226278324,0.0 21.55899709976358,65.03512351347733,0.0 21.559676446829144,65.0353998822598,0.0 21.55978777558126,65.03546527185777,0.0 21.55983718183839,65.03554307311771,0.0 21.55986484367582,65.03568631433204,0.0 21.559832060938657,65.03578408114019,0.0 21.559703002227995,65.03586639881573,0.0 21.55872377949745,65.03626244122628,0.0 21.558652284458145,65.03628671680264,0.0 21.557810688428138,65.03652497746616,0.0 21.557673486954236,65.0365527232592,0.0 21.55752328916457,65.03656286934154,0.0 21.31997186814041,65.03783963457667,0.0 21.319822464303204,65.03783126981692,0.0 21.20851443241769,65.02454804743907,0.0 21.20834183565692,65.02451201836895,0.0 21.20694838616147,65.02407226817486,0.0 21.206776475165412,65.0239791769641,0.0 21.206740393644978,65.0238620662986,0.0 21.20685016203776,65.02375346520554,0.0 21.209385087858557,65.02240205060711,0.0 21.209415616861257,65.0223871676578,0.0 21.261266467204823,64.99921952542728,0.0 21.261407379226114,64.99917458758704,0.0 21.318848684275356,64.98655122030965,0.0 21.31908443216567,64.98652599181892,0.0 21.31932194846985,64.98654804815433,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark>
+            <name>Berörda kunder: 1</name>
+            <description>Åtgärdat&lt;br&gt;Uppstod: 2017-04-19 13:03&lt;br&gt;Sluttid: 2017-04-19 14:22&lt;br&gt;</description>
+            <styleUrl>#green</styleUrl>
+            <Point>
+                <altitudeMode>absolute</altitudeMode>
+                <coordinates>20.981402298303024,64.83702575888452,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Berörda kunder: 1</name>
+            <description>Åtgärdat&lt;br&gt;Uppstod: 2017-04-19 14:38&lt;br&gt;Sluttid: 2017-04-19 14:45&lt;br&gt;</description>
+            <styleUrl>#green</styleUrl>
+            <Point>
+                <altitudeMode>absolute</altitudeMode>
+                <coordinates>20.38623089712694,64.86454774305314,0.0</coordinates>
+            </Point>
+        </Placemark>
+    </Document>
+</kml>
